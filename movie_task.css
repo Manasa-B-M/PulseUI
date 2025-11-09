@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#navbar{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 20px;
+}
+body{
+    background-color: black;
+    color: white;
+    min-height: 100vh;
+    padding: 30px 0px;
+}
+#search_bar{
+    width: 300px;
+    outline: none;
+    margin-right: 15px;
+    border-radius: 10px;
+    border: none;
+    padding: 0px 30px;
+}
+#search_bar::placeholder{
+    color:crimson;
+}
+#search_btn{
+    width: 70px;
+    border-radius: 10px;
+    background-color:crimson;
+    color: white;
+    cursor: pointer;
+    padding: 0px 16px;
+    margin-right: 10px;
+    /* transition: all 0.5s; */
+}
+#search_btn:hover{
+    background-color: rgb(136, 136, 237);
+    transition: all 0.5s;   
+}
+#poster{
+    height:380px ; 
+    width:100% ; 
+}
+#moviecard{
+    height: 550px ;
+    width: 350px ;
+    margin:25px 25px;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px;
+}
+#moviecard:hover{
+    transform: scale(1.1);
+    transition: all 1s;
+}
+#moviecard h1{
+    font-size: 25px;
+    line-height: 40px;
+    color: cornsilk;
+    text-align: center;
+}
+#moviecard h3{
+    color: cornsilk;
+    text-align: center;
+    font-size: 18px;
+}
+#dropdown{
+    height: 20px ;
+    width: 20px;
+    margin-top: 10px;
+    display: none;
+}
+#dropdown option:hover{
+    background-color: black;
+    color: white;
+}
